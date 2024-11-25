@@ -1,11 +1,12 @@
+Currenyly Lutris is the best method for Nvidia GPU users.
+
+<img src="https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Assets/NewLogos/AffinityLutris.png" width="400"/>
+
 # How to Set Up Wine for Affinity on Lutris
 
-## 1. Install Desired Wine Version (ElementalWarrior recommended)
-
-Choose one of the following Wine versions:
+## 1. Install ElementalWarrior Wine Version
 
 - [ElementalWarrior](https://github.com/Twig6943/ElementalWarrior-wine-binaries/releases) (Recommended) (Just right click and extract)
-- [**Wine-TKG-Affinity**](https://github.com/daegalus/wine-tkg-affinity/releases) (You're supposed to extract the usr folder inside the  and then rename it to wine-tkg-affinity)
 
 ## 2. Install Lutris
 
@@ -13,15 +14,15 @@ Choose one of the following Wine versions:
 
 Copy & paste the wine binaries you've extracted earlier to Bottles’ runners directory:
 
-- `/home/$USER/.local/share/lutris/runners`
+- `/home/$USER/.local/share/lutris/runners/wine/`
 
 ## Make sure to name the wine-binaries as ElementalWarriorWine-x86_64
 
-## 4. Add Affinity in Bottles
+## 4. Add Affinity in Lutris
 
 1. Open Affinity and click on the plus icon.
 2. Install from a local install script
-3. Import the [configuration](https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/refs/heads/main/Guides/Bottles/Affinity-Lutris.yaml) file
+3. Import the [configuration](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Lutris/Affinity-Lutris.yaml) file
 3. Click Install
 5. Choose Windows 11, when winecfg pops up.
 6. Close when the configuration is done.
